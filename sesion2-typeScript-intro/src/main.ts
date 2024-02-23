@@ -2,6 +2,12 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+import { charmander } from './bases/04-injectios.ts'
+charmander
+
+//import { name } from './bases/01-types.ts';
+
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -16,9 +22,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite and TypeScript logosmm to learn more
+      Click on the Vite and TypeScript logo to learn more
     </p>
   </div>
-`
+`;
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
