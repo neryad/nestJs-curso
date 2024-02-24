@@ -2,7 +2,8 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import { charmander } from './bases/04-injectios.ts'
+import { charmander } from './bases/05-decorators.ts'
+
 charmander
 
 //import { name } from './bases/01-types.ts';
