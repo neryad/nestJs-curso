@@ -19,4 +19,14 @@ export class CarsService {
       model: 'Cherokee',
     },
   ];
+
+  finadAll() {
+    return this.cars;
+  }
+
+  finaOneById(id: number) {
+    const car = this.cars.find((car) => car.id === id);
+
+    return car;
+  }
 }
